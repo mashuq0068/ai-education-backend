@@ -52,7 +52,7 @@ const createMCQ = async () => {
       },
     ],
     temperature: 0.7,
-    max_tokens: 7000,
+    max_tokens: 5000,
     stream: false,
   });
   console.log(completion);
